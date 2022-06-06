@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.portfolio {
+    display: flex;
+    width: 90%;
+    margin: 1% auto;
+  }
+  
+  .portfolio button {
+    font-size: 150%;
+    align-items: center;
+    }
+  
+  .portfolio-slideshow {
+    display: flex;
+  }
+  
+  .portfolio-image {
+    width: 100%;
+  }
+  
+  .portfolio-details {
+    margin-left: 3%;
+    flex: 0 0 60%;
+  }
+
+/*change this*/
+
+@media screen and (max-width: 768px) {
+    main,
+    nav,
+    .project {
+      flex-direction: column;
+    }
+  
+    .project-slideshow button {
+      /* Removes the slideshow buttons from the document flow */
+      display: none;
+    }
+  
+    .project-details {
+      margin-left: 0;
+    }
+  }
