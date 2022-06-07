@@ -5,10 +5,6 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -21,6 +17,9 @@ p {
 
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
   }
 
 .h1 {
@@ -28,8 +27,8 @@ p {
 }
 
 .nav {
-  justify-content: end;
   padding: 10px;
+  font-size: 24px;
 }
 
 .portfolio {
@@ -61,16 +60,16 @@ p {
 @media screen and (max-width: 768px) {
     main,
     nav,
-    .project {
+    .portfolio {
       flex-direction: column;
     }
   
-    .project-slideshow button {
+    .portfolio-slideshow button {
       /* Removes the slideshow buttons from the document flow */
-      display: none;
+      display: flex;
     }
   
-    .project-details {
+    .porfolio-details {
       margin-left: 0;
     }
   }
