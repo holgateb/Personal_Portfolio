@@ -1,12 +1,19 @@
 * {
-    background-color: darkgrey;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+header {
+  background-color: black;
+}
+
+body {
+  background-color: darkgrey;
+}
+
 a {
-    color: #ffffff;
+    color: aliceblue;
     text-decoration: none;
 }
 
@@ -15,20 +22,32 @@ p {
     margin: 15px;
 }
 
+.footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 15px;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px;
+  padding: 15px 10%;
+  border-bottom: 5px black
   }
 
-.h1 {
+.header h1 {
   justify-content: left;
+  color: aliceblue;
 }
 
-.nav {
-  padding: 10px;
+.header nav {
   font-size: 24px;
+  color: aliceblue;
 }
 
 .portfolio {
