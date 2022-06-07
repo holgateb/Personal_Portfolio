@@ -50,6 +50,8 @@ p {
 }
 
 .main {
+  display: flex;
+  flex-wrap: wrap;
   background-color: rgb(52, 47, 47);
   border-radius: 25px;
   border: 3px solid #73AD21;
@@ -61,12 +63,26 @@ p {
   text-align: center
 }
 
+.h2 {
+  font-size: 24px;
+}
+
+.contact {
+  justify-content: center;
+  font-size: x-large;
+  padding: 8px;
+}
+
+.ul {
+  list-style-type: none;
+}
+
 .footer {
   background-color: black;
   color: aliceblue;
   text-align: center;
   padding: 15px;
-  position:absolute;
+  position:relative;
   bottom:0;
   width:100%;
   font-family: 'Courier New', Courier, monospace;
@@ -97,8 +113,6 @@ p {
     flex: 0 0 60%;
   }
 
-/*change this*/
-
 @media screen and (max-width: 768px) {
     main,
     nav,
@@ -107,7 +121,6 @@ p {
     }
   
     .portfolio-slideshow button {
-      /* Removes the slideshow buttons from the document flow */
       display: flex;
     }
   
