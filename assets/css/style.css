@@ -29,6 +29,7 @@ p {
   align-items: center;
   padding: 15px 10%;
   height: 60px;
+  border-bottom: 3px solid #73AD21;
   }
 
 .header h1 {
@@ -51,7 +52,7 @@ p {
 .main {
   background-color: rgb(52, 47, 47);
   border-radius: 25px;
-  border: 2px solid #73AD21;
+  border: 3px solid #73AD21;
   padding: 20px;
   width: auto;
   height: auto;
@@ -68,6 +69,7 @@ p {
   bottom:0;
   width:100%;
   font-family: 'Courier New', Courier, monospace;
+  border-top: 3px solid #73AD21;
 }
 
 .portfolio {
