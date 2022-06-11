@@ -101,7 +101,6 @@ header nav a:hover {
 .three {
   background-image: url("../images/accessability.png");
 }
-/* 
 .contact {
   justify-content: center;
   font-size: x-large;
@@ -122,30 +121,6 @@ header nav a:hover {
   border-top: 3px solid #73AD21;
 }
 
-.portfolio {
-    display: flex;
-    width: 90%;
-    margin: 1% auto;
-  }
-  
-  .portfolio button {
-    font-size: 150%;
-    align-items: center;
-    }
-  
-  .portfolio-slideshow {
-    display: flex;
-  }
-  
-  .portfolio-image {
-    width: 100%;
-  }
-  
-  .portfolio-details {
-    margin-left: 3%;
-    flex: 0 0 60%;
-  } */
-/* 
 @media screen and (max-width: 768px) {
     main,
     nav,
@@ -160,4 +135,4 @@ header nav a:hover {
     .porfolio-details {
       margin-left: 0;
     }
-  } */
+  }
