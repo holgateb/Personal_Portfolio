@@ -13,11 +13,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  /* font-size: 16px;
-  margin: 15px; */
-}
-
 header {
   background-color: black;
   font-family: "Courier New", Courier, monospace;
@@ -90,6 +85,11 @@ header nav a:hover {
   background-size: 150%;
 }
 
+/*why isnt this making the images bigger?*/
+.section .project-container a:hover {
+  background-size: 325%;
+}
+
 .one {
   background-image: url("../images/accessability.png");
   margin: 0 10px;
@@ -105,12 +105,12 @@ header nav a:hover {
   margin: 0 10px;
 }
 
-.contact {
+/*why isn't this centering and adding padding?*/
+.section .contact a {
   justify-content: center;
   align-content: space-between;
   padding: 0 15px;
-  
-}
+  }
 
 footer {
   background-color: black;
