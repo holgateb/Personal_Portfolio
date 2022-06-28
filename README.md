@@ -1,9 +1,9 @@
-# Personal_Portfolio
-Week 2 Homework
+# Personal Portfolio
+A portfolio of my projects and work
 
 ## Description
 
-This weeks project was to start a page to showcase our sweet Dev skills. My personal portfolio page includes a header that uses flex. It's also going to include a slideshow with pictures of all my work with clickable links to the full page.
+This weeks project was to start a page to showcase our sweet Dev skills. My personal portfolio page includes a header that uses flex. It's also going to include a gallery with pictures of all my work with clickable links to the full page.
 
 ## Technologies Used
 
@@ -19,3 +19,9 @@ This weeks project was to start a page to showcase our sweet Dev skills. My pers
 ## Usage
 
 ![Screenshot of Website](assets/images/screenshot.png)
+
+## Link to Deployed Application and Repo
+
+https://holgateb.github.io/Personal_Portfolio/
+
+https://github.com/holgateb

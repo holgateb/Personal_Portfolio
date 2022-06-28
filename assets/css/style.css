@@ -101,15 +101,15 @@ header nav a:hover {
 .three {
   background-image: url("../images/accessability.png");
 }
+
 .contact {
   justify-content: center;
-  font-size: x-large;
-  padding: 8px;
+  align-content: space-between;
+  margin: 0 15px;
+  
 }
 
-
-
-.footer {
+footer {
   background-color: black;
   color: aliceblue;
   text-align: center;
