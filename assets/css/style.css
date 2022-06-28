@@ -92,20 +92,23 @@ header nav a:hover {
 
 .one {
   background-image: url("../images/accessability.png");
+  margin: 0 10px;
 }
 
 .two {
-  background-image: url("../images/accessability.png");
+  background-image: url("../images/screenshot.png");
+  margin: 0 10px;
 }
 
 .three {
   background-image: url("../images/accessability.png");
+  margin: 0 10px;
 }
 
 .contact {
   justify-content: center;
   align-content: space-between;
-  margin: 0 15px;
+  padding: 0 15px;
   
 }
 
